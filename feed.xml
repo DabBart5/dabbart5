@@ -3,7 +3,7 @@
     <title>Roofing-Archives</title>
     <link href="https://dabbart5.github.io/dabbart5/feed.xml" rel="self" />
     <link href="https://dabbart5.github.io/dabbart5" />
-    <updated>2025-06-04T18:14:47+02:00</updated>
+    <updated>2025-06-04T19:03:04+02:00</updated>
     <author>
         <name>Dabion</name>
     </author>
@@ -43,7 +43,7 @@
             <summary>
                 <![CDATA[
                         <img src="https://dabbart5.github.io/dabbart5/media/posts/5/Chemnitz-TU-StraNa.jpg" alt="TU Strana, also not the best for roofing" />
-                    THis is block one There could be an image here What else is needed is
+                    The other TU Chemnitz is not really suitable for roofing either... Please notice that:
                 ]]>
             </summary>
         <content type="html">
@@ -51,20 +51,34 @@
                     <p><img src="https://dabbart5.github.io/dabbart5/media/posts/5/Chemnitz-TU-StraNa.jpg" class="type:primaryImage" alt="TU Strana, also not the best for roofing" /></p>
                 
   <p>
-    THis is block one
+    The other TU Chemnitz is not really suitable for roofing either...
   </p>
 
-  <p>
-    There could be an image here
-  </p>
+    <figure class="post__image post__image--wide">
+      <img loading="lazy" src="https://dabbart5.github.io/dabbart5/media/posts/5/TUCAbendDach.jpg" height="900" width="1600" alt="Well, it's a sunset."  sizes="(max-width: 48em) 100vw, 768px" srcset="https://dabbart5.github.io/dabbart5/media/posts/5/responsive/TUCAbendDach-xs.jpg 300w ,https://dabbart5.github.io/dabbart5/media/posts/5/responsive/TUCAbendDach-sm.jpg 480w ,https://dabbart5.github.io/dabbart5/media/posts/5/responsive/TUCAbendDach-md.jpg 768w ,https://dabbart5.github.io/dabbart5/media/posts/5/responsive/TUCAbendDach-lg.jpg 1024w ,https://dabbart5.github.io/dabbart5/media/posts/5/responsive/TUCAbendDach-xl.jpg 1360w ,https://dabbart5.github.io/dabbart5/media/posts/5/responsive/TUCAbendDach-2xl.jpg 1600w">
+      <figcaption>Great view in the evening.</figcaption>
+    </figure>
 
   <p>
-    What else is needed is
+    Please notice that:
   </p>
 
   <ul>
-    <li>images</li><li>a map</li><li>a link to google maps to find the location</li>
+    <li>I don't know how to get to the roof&nbsp;</li><li>You definitely won't be alone if you're going on a weekday</li><li>it's probably not open on the weekend, idk tho</li>
   </ul>
+
+    <h2 id="navigation">
+      Navigation
+    </h2>
+
+    <figure class="blockquote">
+      <blockquote>"I don't have access to the map anymore, so you need to open the sidebar on the left or look for it yourself ~"</blockquote>
+      <figcaption>Me, I wrote that</figcaption>
+    </figure>
+
+  <p>
+    
+  </p>
 <div><script src="https://cdn.commoninja.com/sdk/latest/commonninja.js" defer></script>
 <div class="commonninja_component pid-1da69ecb-ac1d-4928-8cb5-15846e6f7f20"></div>
 
