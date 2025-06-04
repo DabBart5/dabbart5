@@ -3,7 +3,7 @@
     <title>Roofing-Archives</title>
     <link href="https://dabbart5.github.io/dabbart5/feed.xml" rel="self" />
     <link href="https://dabbart5.github.io/dabbart5" />
-    <updated>2025-06-04T19:03:04+02:00</updated>
+    <updated>2025-06-04T19:10:24+02:00</updated>
     <author>
         <name>Dabion</name>
     </author>
@@ -92,7 +92,7 @@
         </content>
     </entry>
     <entry>
-        <title>test 3</title>
+        <title>TestPost 3</title>
         <author>
             <name>Dabion</name>
         </author>
@@ -102,12 +102,12 @@
         <updated>2025-05-15T12:21:35+02:00</updated>
             <summary>
                 <![CDATA[
-                    jjj
+                    TestPost1 and 2 don't exist anymore
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                <p>jjj</p>
+                <p>TestPost1 and 2 don't exist anymore</p>
             ]]>
         </content>
     </entry>
@@ -122,16 +122,15 @@
         <updated>2025-05-15T12:12:01+02:00</updated>
             <summary>
                 <![CDATA[
-                    Lorem Ipsum ... Map &lt;script src="https://cdn.commoninja.com/sdk/latest/commonninja.js" defer&gt;&lt;/script&gt; &lt;div class="commonninja_component pid-1da69ecb-ac1d-4928-8cb5-15846e6f7f20"&gt;&lt;/div&gt;
+                    Isn't it beautiful... I don't know what is supposed to be beautiful...
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                <p>Lorem Ipsum ...</p>
-<p> </p>
-<p>Map</p>
-<pre class="language-html"><code>&lt;script src="https://cdn.commoninja.com/sdk/latest/commonninja.js" defer&gt;&lt;/script&gt;
-&lt;div class="commonninja_component pid-1da69ecb-ac1d-4928-8cb5-15846e6f7f20"&gt;&lt;/div&gt;</code></pre>
+                <blockquote>
+<p>Isn't it beautiful...</p>
+<p>I don't know what is supposed to be beautiful...</p>
+</blockquote>
             ]]>
         </content>
     </entry>
