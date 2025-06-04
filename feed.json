@@ -1,0 +1,85 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Roofing-Archives",
+    "description": "",
+    "home_page_url": "https://dabbart5.github.io/dabbart5",
+    "feed_url": "https://dabbart5.github.io/dabbart5/feed.json",
+    "user_comment": "",
+    "icon": "https://dabbart5.github.io/dabbart5/media/website/roofing.jpg",
+    "author": {
+        "name": "Dabion"
+    },
+    "items": [
+        {
+            "id": "https://dabbart5.github.io/dabbart5/tu-chemnitz.html",
+            "url": "https://dabbart5.github.io/dabbart5/tu-chemnitz.html",
+            "title": "TU Chemnitz",
+            "content_html": "\n  <p>\n    \n  </p>",
+            "image": "https://dabbart5.github.io/dabbart5/media/posts/6/TUC_Preview.jpg",
+            "author": {
+                "name": "Dabion"
+            },
+            "tags": [
+            ],
+            "date_published": "2025-05-15T12:56:54+02:00",
+            "date_modified": "2025-06-03T21:45:53+02:00"
+        },
+        {
+            "id": "https://dabbart5.github.io/dabbart5/this-is-the-best-post-we-have.html",
+            "url": "https://dabbart5.github.io/dabbart5/this-is-the-best-post-we-have.html",
+            "title": "The Other TU Chemnitz",
+            "summary": "THis is block one There could be an image here What else is needed is",
+            "content_html": "\n  <p>\n    THis is block one\n  </p>\n\n  <p>\n    There could be an image here\n  </p>\n\n  <p>\n    What else is needed is\n  </p>\n\n  <ul>\n    <li>images</li><li>a map</li><li>a link to google maps to find the location</li>\n  </ul>\n<div><script src=\"https://cdn.commoninja.com/sdk/latest/commonninja.js\" defer></script>\n<div class=\"commonninja_component pid-1da69ecb-ac1d-4928-8cb5-15846e6f7f20\"></div>\n\n\n</div>\n\n  <p>\n    \n  </p>",
+            "image": "https://dabbart5.github.io/dabbart5/media/posts/5/Chemnitz-TU-StraNa.jpg",
+            "author": {
+                "name": "Dabion"
+            },
+            "tags": [
+            ],
+            "date_published": "2025-05-15T12:40:05+02:00",
+            "date_modified": "2025-06-04T18:14:47+02:00"
+        },
+        {
+            "id": "https://dabbart5.github.io/dabbart5/test-3.html",
+            "url": "https://dabbart5.github.io/dabbart5/test-3.html",
+            "title": "test 3",
+            "summary": "jjj",
+            "content_html": "<p>jjj</p>",
+            "author": {
+                "name": "Dabion"
+            },
+            "tags": [
+            ],
+            "date_published": "2025-05-15T12:21:35+02:00",
+            "date_modified": "2025-05-15T12:21:35+02:00"
+        },
+        {
+            "id": "https://dabbart5.github.io/dabbart5/another-post-for-testing.html",
+            "url": "https://dabbart5.github.io/dabbart5/another-post-for-testing.html",
+            "title": "Another post for testing",
+            "summary": "Lorem Ipsum ... Map &lt;script src=\"https://cdn.commoninja.com/sdk/latest/commonninja.js\" defer&gt;&lt;/script&gt; &lt;div class=\"commonninja_component pid-1da69ecb-ac1d-4928-8cb5-15846e6f7f20\"&gt;&lt;/div&gt;",
+            "content_html": "<p>Lorem Ipsum ...</p>\n<p> </p>\n<p>Map</p>\n<pre class=\"language-html\"><code>&lt;script src=\"https://cdn.commoninja.com/sdk/latest/commonninja.js\" defer&gt;&lt;/script&gt;\n&lt;div class=\"commonninja_component pid-1da69ecb-ac1d-4928-8cb5-15846e6f7f20\"&gt;&lt;/div&gt;</code></pre>",
+            "author": {
+                "name": "Dabion"
+            },
+            "tags": [
+            ],
+            "date_published": "2025-05-15T12:12:01+02:00",
+            "date_modified": "2025-05-15T12:52:37+02:00"
+        },
+        {
+            "id": "https://dabbart5.github.io/dabbart5/roofing-archives.html",
+            "url": "https://dabbart5.github.io/dabbart5/roofing-archives.html",
+            "title": "Roofing Archives",
+            "summary": "Look here &lt;script src=\"https://cdn.commoninja.com/sdk/latest/commonninja.js\" defer&gt;&lt;/script&gt; &lt;div class=\"commonninja_component pid-1da69ecb-ac1d-4928-8cb5-15846e6f7f20\"&gt;&lt;/div&gt;",
+            "content_html": "<h1>Look here</h1>\n<pre class=\"language-html\"><code>&lt;script src=\"https://cdn.commoninja.com/sdk/latest/commonninja.js\" defer&gt;&lt;/script&gt;\n&lt;div class=\"commonninja_component pid-1da69ecb-ac1d-4928-8cb5-15846e6f7f20\"&gt;&lt;/div&gt;</code></pre>\n<h1> </h1>",
+            "author": {
+                "name": "Dabion"
+            },
+            "tags": [
+            ],
+            "date_published": "2025-05-15T12:06:17+02:00",
+            "date_modified": "2025-05-15T12:51:58+02:00"
+        }
+    ]
+}
