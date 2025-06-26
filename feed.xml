@@ -3,12 +3,34 @@
     <title>Roofing-Archives</title>
     <link href="https://dabbart5.github.io/dabbart5/feed.xml" rel="self" />
     <link href="https://dabbart5.github.io/dabbart5" />
-    <updated>2025-06-04T19:26:31+02:00</updated>
+    <updated>2025-06-12T11:41:23+02:00</updated>
     <author>
         <name>Dabion</name>
     </author>
     <id>https://dabbart5.github.io/dabbart5</id>
 
+    <entry>
+        <title>hello</title>
+        <author>
+            <name>Dabion</name>
+        </author>
+        <link href="https://dabbart5.github.io/dabbart5/hello.html"/>
+        <id>https://dabbart5.github.io/dabbart5/hello.html</id>
+
+        <updated>2025-06-11T20:01:44+02:00</updated>
+            <summary>
+                <![CDATA[
+                    hallo Hallo Herr
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <h2 id="hallo">hallo</h2>
+<h4 id="hallo-herr">Hallo Herr</h4>
+
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>TU Chemnitz</title>
         <author>
@@ -19,14 +41,65 @@
         <media:content url="https://dabbart5.github.io/dabbart5/media/posts/6/TUC_Preview.jpg" medium="image" />
 
         <updated>2025-05-15T12:56:54+02:00</updated>
-            <summary></summary>
+            <summary>
+                <![CDATA[
+                        <img src="https://dabbart5.github.io/dabbart5/media/posts/6/TUC_Preview.jpg" alt="TU Chemnitz" />
+                    &lt;link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/&gt; &lt;!-- Make sure you put this AFTER Leaflet's CSS --&gt; &lt;script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""&gt;&lt;/script&gt; &lt;div id="map" style="width: 600px;&hellip;
+                ]]>
+            </summary>
         <content type="html">
             <![CDATA[
                     <p><img src="https://dabbart5.github.io/dabbart5/media/posts/6/TUC_Preview.jpg" class="type:primaryImage" alt="TU Chemnitz" /></p>
-                
-  <p>
-    
-  </p>
+                <pre class="line-numbers  language-html"><code> &lt;link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+     crossorigin=""/&gt;
+ &lt;!-- Make sure you put this AFTER Leaflet's CSS --&gt;
+ &lt;script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+     crossorigin=""&gt;&lt;/script&gt;
+ &lt;div id="map" style="width: 600px; height: 400px; position: relative;"&gt;&lt;/div&gt;
+ &lt;script&gt;
+
+	const map = L.map('map').setView([51.505, -0.09], 13);
+
+	const tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+		maxZoom: 19,
+		attribution: '&copy; &lt;a href="http://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
+	}).addTo(map);
+
+	const marker = L.marker([51.5, -0.09]).addTo(map)
+		.bindPopup('&lt;b&gt;Hello world!&lt;/b&gt;&lt;br /&gt;I am a popup.').openPopup();
+
+	const circle = L.circle([51.508, -0.11], {
+		color: 'red',
+		fillColor: '#f03',
+		fillOpacity: 0.5,
+		radius: 500
+	}).addTo(map).bindPopup('I am a circle.');
+
+	const polygon = L.polygon([
+		[51.509, -0.08],
+		[51.503, -0.06],
+		[51.51, -0.047]
+	]).addTo(map).bindPopup('I am a polygon.');
+
+
+	const popup = L.popup()
+		.setLatLng([51.513, -0.09])
+		.setContent('I am a standalone popup.')
+		.openOn(map);
+
+	function onMapClick(e) {
+		popup
+			.setLatLng(e.latlng)
+			.setContent(`You clicked the map at ${e.latlng.toString()}`)
+			.openOn(map);
+	}
+
+	map.on('click', onMapClick);
+
+ var map = L.map('map').setView([51.505, -0.09], 13);
+&lt;/script&gt;</code></pre>
             ]]>
         </content>
     </entry>
@@ -103,12 +176,21 @@
         <updated>2025-05-15T12:21:35+02:00</updated>
             <summary>
                 <![CDATA[
-                    TestPost1 and 2 don't exist anymore
+                    TestPost1 and 2 don't exist anymore &lt;!DOCTYPE html&gt; &lt;html&gt; &lt;body&gt; &lt;h1&gt;My First Heading&lt;/h1&gt; &lt;p&gt;My first paragraph.&lt;/p&gt; &lt;/body&gt; &lt;/html&gt;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                 <p>TestPost1 and 2 don't exist anymore</p>
+<pre class="language-html"><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;body&gt;
+
+&lt;h1&gt;My First Heading&lt;/h1&gt;
+&lt;p&gt;My first paragraph.&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
             ]]>
         </content>
     </entry>
